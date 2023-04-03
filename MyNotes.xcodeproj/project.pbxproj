@@ -9,21 +9,36 @@
 /* Begin PBXBuildFile section */
 		92517234296DB39200F6749D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92517233296DB39200F6749D /* AppDelegate.swift */; };
 		92517236296DB39200F6749D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92517235296DB39200F6749D /* SceneDelegate.swift */; };
-		92517238296DB39200F6749D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92517237296DB39200F6749D /* ViewController.swift */; };
-		9251723B296DB39200F6749D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92517239296DB39200F6749D /* Main.storyboard */; };
+		92517238296DB39200F6749D /* NotesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92517237296DB39200F6749D /* NotesListViewController.swift */; };
 		9251723D296DB39300F6749D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9251723C296DB39300F6749D /* Assets.xcassets */; };
 		92517240296DB39300F6749D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9251723E296DB39300F6749D /* LaunchScreen.storyboard */; };
+		929C20B32971D34A009FB2FE /* OneNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C20B22971D34A009FB2FE /* OneNoteViewController.swift */; };
+		929C20B52971D681009FB2FE /* NotesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C20B42971D681009FB2FE /* NotesListCell.swift */; };
+		929C20B82971D8BC009FB2FE /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C20B72971D8BC009FB2FE /* UIView+Extensions.swift */; };
+		929C20BB2971DA76009FB2FE /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C20BA2971DA76009FB2FE /* Note.swift */; };
+		92A10EB329D75D3A0098ADD4 /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 92A10EB229D75D3A0098ADD4 /* SwiftKeychainWrapper */; };
+		92A10EB729D75DB50098ADD4 /* NotesKeychainStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A10EB629D75DB50098ADD4 /* NotesKeychainStorage.swift */; };
+		92A10EB929D8739A0098ADD4 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A10EB829D8739A0098ADD4 /* UITextField+Extensions.swift */; };
+		92A10EBB29D8A9DF0098ADD4 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A10EBA29D8A9DF0098ADD4 /* UIViewController+Extensions.swift */; };
+		92A10EBD29DA15F50098ADD4 /* UINavigationController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A10EBC29DA15F50098ADD4 /* UINavigationController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		92517230296DB39200F6749D /* MyNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92517233296DB39200F6749D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92517235296DB39200F6749D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		92517237296DB39200F6749D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9251723A296DB39200F6749D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92517237296DB39200F6749D /* NotesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListViewController.swift; sourceTree = "<group>"; };
 		9251723C296DB39300F6749D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9251723F296DB39300F6749D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92517241296DB39300F6749D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929C20B22971D34A009FB2FE /* OneNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneNoteViewController.swift; sourceTree = "<group>"; };
+		929C20B42971D681009FB2FE /* NotesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListCell.swift; sourceTree = "<group>"; };
+		929C20B72971D8BC009FB2FE /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		929C20BA2971DA76009FB2FE /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		92A10EB629D75DB50098ADD4 /* NotesKeychainStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesKeychainStorage.swift; sourceTree = "<group>"; };
+		92A10EB829D8739A0098ADD4 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		92A10EBA29D8A9DF0098ADD4 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		92A10EBC29DA15F50098ADD4 /* UINavigationController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92A10EB329D75D3A0098ADD4 /* SwiftKeychainWrapper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +74,44 @@
 			children = (
 				92517233296DB39200F6749D /* AppDelegate.swift */,
 				92517235296DB39200F6749D /* SceneDelegate.swift */,
-				92517237296DB39200F6749D /* ViewController.swift */,
-				92517239296DB39200F6749D /* Main.storyboard */,
+				92517237296DB39200F6749D /* NotesListViewController.swift */,
+				929C20B22971D34A009FB2FE /* OneNoteViewController.swift */,
+				929C20B42971D681009FB2FE /* NotesListCell.swift */,
+				929C20B92971DA69009FB2FE /* Models */,
+				92A10EB529D75D7E0098ADD4 /* Services */,
+				929C20B62971D89E009FB2FE /* Helpers */,
 				9251723C296DB39300F6749D /* Assets.xcassets */,
 				9251723E296DB39300F6749D /* LaunchScreen.storyboard */,
 				92517241296DB39300F6749D /* Info.plist */,
 			);
 			path = MyNotes;
+			sourceTree = "<group>";
+		};
+		929C20B62971D89E009FB2FE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				929C20B72971D8BC009FB2FE /* UIView+Extensions.swift */,
+				92A10EB829D8739A0098ADD4 /* UITextField+Extensions.swift */,
+				92A10EBA29D8A9DF0098ADD4 /* UIViewController+Extensions.swift */,
+				92A10EBC29DA15F50098ADD4 /* UINavigationController+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		929C20B92971DA69009FB2FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				929C20BA2971DA76009FB2FE /* Note.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		92A10EB529D75D7E0098ADD4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				92A10EB629D75DB50098ADD4 /* NotesKeychainStorage.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +130,9 @@
 			dependencies = (
 			);
 			name = MyNotes;
+			packageProductDependencies = (
+				92A10EB229D75D3A0098ADD4 /* SwiftKeychainWrapper */,
+			);
 			productName = MyNotes;
 			productReference = 92517230296DB39200F6749D /* MyNotes.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +161,9 @@
 				Base,
 			);
 			mainGroup = 92517227296DB39200F6749D;
+			packageReferences = (
+				92A10EB129D75D3A0098ADD4 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
+			);
 			productRefGroup = 92517231296DB39200F6749D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +180,6 @@
 			files = (
 				92517240296DB39300F6749D /* LaunchScreen.storyboard in Resources */,
 				9251723D296DB39300F6749D /* Assets.xcassets in Resources */,
-				9251723B296DB39200F6749D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +190,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92517238296DB39200F6749D /* ViewController.swift in Sources */,
+				92A10EBD29DA15F50098ADD4 /* UINavigationController+Extensions.swift in Sources */,
+				929C20B82971D8BC009FB2FE /* UIView+Extensions.swift in Sources */,
+				929C20B32971D34A009FB2FE /* OneNoteViewController.swift in Sources */,
+				92A10EBB29D8A9DF0098ADD4 /* UIViewController+Extensions.swift in Sources */,
+				929C20BB2971DA76009FB2FE /* Note.swift in Sources */,
+				929C20B52971D681009FB2FE /* NotesListCell.swift in Sources */,
+				92517238296DB39200F6749D /* NotesListViewController.swift in Sources */,
 				92517234296DB39200F6749D /* AppDelegate.swift in Sources */,
+				92A10EB929D8739A0098ADD4 /* UITextField+Extensions.swift in Sources */,
 				92517236296DB39200F6749D /* SceneDelegate.swift in Sources */,
+				92A10EB729D75DB50098ADD4 /* NotesKeychainStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		92517239296DB39200F6749D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9251723A296DB39200F6749D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9251723E296DB39300F6749D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +344,9 @@
 				INFOPLIST_FILE = MyNotes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +354,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.demidengo.MyNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +375,9 @@
 				INFOPLIST_FILE = MyNotes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +385,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.demidengo.MyNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +416,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		92A10EB129D75D3A0098ADD4 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrendel/SwiftKeychainWrapper.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		92A10EB229D75D3A0098ADD4 /* SwiftKeychainWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92A10EB129D75D3A0098ADD4 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */;
+			productName = SwiftKeychainWrapper;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 92517228296DB39200F6749D /* Project object */;
 }
